@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toytopia.com</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .top-bar {
+        width: 100%;
+        height: 20px;
+        background-color: #0004ff;
+        text-align: center;
+    }
+
+    .top-text {
+        color: #ffffff;
+        font-size: 15px;
+        padding: 1px;
+        font-weight: bold;
+        margin: 0px;
+    }
+
+    #header {
+        width: 100%;
+        height: 70px;
+        padding: 0px;
+        background-color: #ffffff;
+        margin-top: 5px;
+        display: inline-flex;
+    }
+
+    .menu {
+        text-align: left;
+        width: 30%;
+        height: 60%;
+        display: inline-flex;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 10px;
+    }
+
+    .logo {
+        text-align: center;
+        width: 35%;
+    }
+
+    li {
+        display: inline-flex;
+        padding: 0px 5px 5px 5px;
+    }
+
+    a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .hero-bar {
+        width: 100%;
+        height: 460px;
+        overflow: hidden;
+    }
+
+    .sub-session {
+        width: 100%;
+        height: 1500px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .sub-heading1 {
+        font-size: 50px;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+
+    .sub-text1 {
+        margin-top: 5px;
+        font-size: 14px;
+        color: #555;
+    }
+
+    .sub-image1 {
+        width: 30%;
+        height: 450px;
+        padding: 10px;
+        text-align: left;
+    }
+
+    .sub-heading2 {
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 20px;
+    }
+
+    .sub-heading3 {
+        font-size: 50px;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    .sub-text3 {
+        margin-top: 5px;
+        font-size: 14px;
+        color: #555;
+    }
+
+    .sub-image3 {
+        width: 24%;
+        height: 400px;
+        padding: 0px;
+        text-align: center;
+
+    }
+
+    #footer {
+        background-color: #f1f1f1;
+        width: 100%;
+        height: 60px;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .footer {
+        background: #f3e8ff;
+        color: #333;
+        padding-top: 45px;
+        margin-top: 40px;
+    }
+
+    .footer-container {
+        max-width: 1200px;
+        margin: auto;
+        padding: 0 25px;
+        display: flex;
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+    .footer-box {
+        flex: 1;
+    }
+
+    .footer-box h2 {
+        color: #7c3aed;
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .footer-box h3 {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    .footer-box p {
+        line-height: 1.6;
+        margin: 8px 0;
+    }
+
+    .footer-box a {
+        display: block;
+        color: #555;
+        text-decoration: none;
+        margin: 10px 0;
+    }
+
+    .footer-box a:hover {
+        color: #7c3aed;
+    }
+
+    .footer-bottom {
+        text-align: center;
+        border-top: 1px solid #ddd;
+        margin-top: 35px;
+        padding: 18px;
+    }
+
+    .footer-bottom p {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    /* Mobile */
+    @media (max-width: 768px) {
+        .footer-container {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .footer-box a {
+            margin: 8px 0;
+        }
+    }
+</style>
+
+<body>
+    <div class="top-bar">
+        <p class="top-text">Pakistan's No.1 Toy Store</p>
+    </div>
+    <div id="header">
+        <div class="menu">
+            <ul style="list-style-type: none;">
+                <a href="home.html">
+                    <li>Home</li>
+                </a>
+                <a href="about.html">
+                    <li>About</li>
+                </a>
+                <a href="shopbycategory.html">
+                    <li>Shop by Category</li>
+                </a>
+                <a href="shopbyage.html">
+                    <li>Shop by Age</li>
+                </a>
+            </ul>
+        </div>
+        <div class="logo">
+            <img src="Colorful and Fun Toys Store Logo (1).png"
+                alt="Toytopia Logo" width="80" height="60">
+        </div>
+    </div>
+    <div class="hero-bar">
+        <img src="Hero banner 2000×800 clear.png"
+            alt="Toytopia" class="hero-image" width="100%" height="460">
+    </div>
+    <div class="sub-session">
+        <h1 class="sub-heading1">Shop by Little One</h1>
+        <p class="sub-text1">Find the perfect toys for every child ✨</p>
+        <img src="little one collection.png"
+            alt="little one collection image" class="sub-image1" width="30%" height="450">
+        <img src="boy collection.png"
+            alt="boy collection image" class="sub-image1" width="30%" height="450">
+        <img src="girls collection.png"
+            alt="girls collection image" class="sub-image1" width="30%" height="450">
+
+        <h1 class="sub-heading3">Our Popular Categories</h1>
+        <p class="sub-text3">Shop your favorite toy for every age and interest 🌟</p>
+        <img src="L & E.png"
+            alt="popular categories image" class="sub-image3" width="20%" height="400">
+        <img src="B & C.png"
+            alt="popular categories image" class="sub-image3" width="20%" height="400">
+        <img src="C & VP.png"
+            alt="popular categories image" class="sub-image3" width="20%" height="400">
+        <img src="kid makeup.png"
+            alt="popular categories image" class="sub-image3" width="20%" height="400">
+        <img src="puzzle.png"
+            alt="popular categories image" class="sub-image3" width="20%" height="400">
+        <img src="gun.png"
+            alt="popular categories image" class="sub-image3" width="20%" height="400">
+        <img src="rc toy.png"
+            alt="popular categories image" class="sub-image3" width="20%" height="400">
+
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+
+            <div class="footer-box">
+                <h2>TOYTOPIA</h2>
+                <p>
+                    A world of toys, learning, creativity and fun
+                    for every little explorer.
+                </p>
+            </div>
+
+            <div class="footer-box">
+                <h3>Quick Links</h3>
+                <a href="#">Home</a>
+                <a href="#">Shop</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+            </div>
+
+            <div class="footer-box">
+                <h3>Customer Care</h3>
+                <a href="#">Shipping Policy</a>
+                <a href="#">Return Policy</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+            </div>
+
+            <div class="footer-box">
+                <h3>Contact Us</h3>
+                <p>📧 info@toytopia.com</p>
+                <p>📞 +92 300 1234567</p>
+                <p>📍 Pakistan</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 TOYTOPIA. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
